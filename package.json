@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "pugc": "pug templates",
-    "dev": "open templates/index.html"
+    "dev": "open templates/index.html",
+    "tw": "npx tailwindcss --postcss -o ./templates/styles.css"
   },
   "author": "",
   "license": "ISC",
